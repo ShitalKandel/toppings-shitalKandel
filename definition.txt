@@ -1,0 +1,54 @@
+@instance method
+
+--->An instance method inside a class is a function that is associated with 
+instances (objects) of that class. An instance method typically takes at 
+least one parameter, conventionally named self, which refers to the instance
+on which the method is called. This allows the method to access and manipulate 
+the attributes of that specific instance.
+
+@class method 
+
+--->A class method is a function associated with class itself where it passes a parameter
+which represents the class on which it was invoked. Decorater is used to define class method.
+Class methods can't access instance methods.
+
+@static method
+--->Static methods are not bound to an instance or a class; they belong to the class object itself.
+It is defined as : nameofClass.static_function()
+
+
+# instance variable 
+--->Instance variables are created for each instance of a class in memory when an object is 
+instantiated from the class. They hold values unique to every obj when method is called.
+
+# class variable
+--->A class variable is defined inside it's class but outside the instance method and can be
+acced using the class name.
+
+# Concept + practical - Inheritance, Polymorphism
+        # - Encapusulation,  abstraction
+
+@Inheritance
+--->It is a concept wher properties and attributes of one classes can be inherit by it's subclasses.
+
+@Polymorphism
+--->Polymorphism is a principle in Object Oriented Programming(OOP), which takes different forms 
+in object of classes or subclasses. 
+
+@Encapusulation
+--->Encapsulation is a way of hiding the data within an object so that we don’t have direct 
+access to its internal state. It helps us protecting our code by making sure that only certain
+parts of your program can modify the data. Encapsulation makes your code more robust because
+it reduces the chances of bugs caused due to accidental modification of data.
+
+@abstraction (Abstract Base Case)
+---> It is used to hide the funcationality of the code @Hukum dai ko defination
+
+
+
+#In UTF everything is stored in byte
+
+# class and object with constructor
+# code comment
+
+
